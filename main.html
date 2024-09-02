@@ -3,6 +3,15 @@
 <html>
 
 <head>
+	<style> 
+		h1{text-align:center}
+		td#t11{text-align:left}
+		td#t12{text-align:center}
+		td#t13{text-align:right}
+		td{border:1px solid black}
+		td{padding:1px}
+	</style>
+	<title>HTML Assignment 3</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -10,7 +19,39 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<h1>HTML Assignment #3</h1>
+	<div class=middle>
+	<table id=table-1>
+		<tr>
+			<td id=t11>left</td><td id=t12>center</td><td id=t13>right</td>
+		</tr>
+		<tr>
+			<td id=t11>left</td><td id=t12>center</td><td id=t13>right</td>
+		</tr>
+		<tr>
+			<td id=t11>left</td><td id=t12>center</td><td id=t13>right</td>
+		</tr>
+	</table>
+	<br><br>
+	<table id=table-2>
+		<tr><td id=t21 colspan="6"></td></tr>
+		<tr><td rowspan="4"></td><td></td><td></td><td></td><td></td><td></td></tr>
+		<tr><td></td><td colspan="3" rowspan="2"></td><td></td></tr>
+		<tr><td></td><td></td></tr>
+		<tr></td><td></td><td></td><td></td><td></td><td></td></tr>
+		<tr><td colspan="6"></td></tr>
+	</table>
+	<br><br>
+	<table id=table-3>
+		<tr><div class=green><td colspan="3" bgcolor=green></td></div></tr>
+		<tr>
+			<td></td>
+			<td id=t-image><img height=100% width=100% src=https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg></td>
+		    <td></td>
+		</tr>
+	    <tr><div class=blue><td colspan="3" bgcolor=blue></td></div></tr>
+	</table>
+</div>
 </body>
 
 </html>
